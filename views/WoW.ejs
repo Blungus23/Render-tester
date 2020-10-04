@@ -1,0 +1,20 @@
+<html>
+   <head>
+       <h1>Welcome To Testing!!!</h1>
+       <title>Teting Render</title>
+   </head> 
+  <body>
+    <!-- FUNctions -->
+    <%
+    TimesTwo = function(num) {
+        return num * 2;
+    }
+    %>
+   <%  for(var person of persons){ %>  
+     <div><p>Name: <%=person.name%>, Age:  <%=TimesTwo(person.age) %></p></div> 
+   <% }%>
+   
+
+    
+  </body>
+</html>
